@@ -1,2 +1,2 @@
-# C-
+# C++
 Coding Arsenal for C++
