@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
-{
+int main(){
     int N,a=1,b=800,c=400;
     cout <<"Please enter an integer.\n";
     cin>>N;
@@ -16,4 +15,4 @@ int main()
         }
     system ("pause");
     return 0;
-    }
+}
