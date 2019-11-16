@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 #define pi 3.1415926
-int main()
-{
+int main(){
     float R;
     cout<<"Please enter the length of radius."<<endl;
     cin>>R;
@@ -11,4 +10,4 @@ int main()
     cout<<"The circumference="<<2*R*H<<endl;
     system("pause");
     return 0;
-    }
+}
