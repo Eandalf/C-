@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
-{
+int main(){
     cout<<"Please enter your weight.\n";
     float Weight, Height;
     cin>>Weight;
@@ -49,4 +48,4 @@ int main()
     }
     system("pause");
     return 0;
-    }
+}
