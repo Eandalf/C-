@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
-{
+int main(){
     int K,sum=1;
     cout<<"n!\n";
     cout<<"Please enter a number.\n";
@@ -13,4 +12,4 @@ int main()
             cout<<sum;
     system("pause");
     return 0;
-    }
+}
