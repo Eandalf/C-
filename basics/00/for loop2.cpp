@@ -16,6 +16,6 @@ int main()
                     }
                     cout<<endl;
             }
-            system("pause");
-            return 0;
-    }
+        system("pause");
+        return 0;
+}
