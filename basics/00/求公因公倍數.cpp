@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
-{
+int main(){
     cout<<"To find out the greatest common divisor and the least common multiple of the two numbers.\n";
     int h,j;
     cout<<"Please enter a number.\n";
@@ -27,4 +26,4 @@ int main()
            cout<<"The least common multiple of the two numbers is "<<we*hk/j<<endl;
     system("pause");
     return 0;
-    }
+}
