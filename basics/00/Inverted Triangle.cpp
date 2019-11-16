@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
-{
+int main(){
     int K;
     cout<<"Inverted Triangle\n";
     cout<<"Please enter a number.\n";
@@ -16,4 +15,4 @@ int main()
          }
     system("pause");
     return 0;
-    }
+}
