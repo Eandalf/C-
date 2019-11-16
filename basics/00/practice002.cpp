@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
-int main()
-{
+int main(){
     int C,E,M;
     cout<<"Please enter your grade of Chinese."<<endl;
     cin>>C;
@@ -14,4 +13,4 @@ int main()
     cout<<"Average:"<<(L+P+O)/3<<endl;
     system("pause");
     return 0;
-    }
+}
