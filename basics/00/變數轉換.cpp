@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
-int main()
-{
+int main(){
     int a,b;
-    cout<<"½Ğ¿é¤Ja­È"<<"\n";
+    cout<<"è«‹è¼¸å…¥aå€¼"<<"\n";
     cin>>a;
-    cout<<"½Ğ¿é¤Jb­È"<<endl;
+    cout<<"è«‹è¼¸å…¥bå€¼"<<endl;
     cin>>b;
     int c=a;
     cout<<"a="<<a<<endl;
@@ -15,4 +14,4 @@ int main()
     cout<<"a="<<a<<endl<<"b="<<b<<"\n";
     system("pause");
     return 0;
-    }
+}
