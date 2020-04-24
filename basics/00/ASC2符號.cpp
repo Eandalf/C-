@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 int main(){
-	char c;
+	char c = 'a';
 	int i;
-	cout<<"輸入大於255的整數:";
+	cout<<"輸入一個整數:";
 	cin>>i;
 	cout<<i<<endl;
-	c=i;
+	c += i;
 	cout<<"此字元為:"<<c<<endl;
 	//system("pause");
 	return 0;

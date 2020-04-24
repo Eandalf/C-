@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 int main(){
-	cout<<"回文數"<<endl;
+	cout<<"Palindromic Numbers"<<endl;
 	int a,b,c,d;
 	for(int i=1;i<1000;i++)
 	{

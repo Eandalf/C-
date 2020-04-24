@@ -11,20 +11,24 @@ int main()
 		cout<<"Please enter a number to the array.\n";
 		cin>>a[i];
 	}
-	while(counter<=l)
-	{
-		for(int j=0;j<1-1;j++)
-		{
-			if(a[j]<a[j+1]){K=a[j];a[j]=a[j+1];a[j+1]=K;}
+	while(counter<=l){
+		for(int j=0;j<l-counter;j++){
+		    // cout<<j<<" ";
+			if(a[j]>a[j+1]){
+                K=a[j];
+                a[j]=a[j+1];
+                a[j+1]=K;
+            }
 		}
 		counter+=1;
+		// cout<<endl;
 	}
 	cout<<"The arrangement of the array is ";
 	for(int k=0;k<l;k++)
 	{
 		cout<<a[k]<<" ";
 	}
-	cout<<endl<<"The biggest number of the array is "<<a[0]<<".\n";
+	cout<<endl<<"The biggest number of the array is "<<a[l-1]<<".\n";
 	//system("pause");
 	int hot;
 	cout<<"Please enter a number to search where the number is.\n";
